@@ -1,0 +1,5 @@
+22 Mar 2011 16:20:01,624 INFO  ~ Starting /home/tomaz/workspace/diploma/java-web-api/TextExtrApi
+22 Mar 2011 16:20:02,388 WARN  ~ You're running Play! in DEV mode
+22 Mar 2011 16:20:02,532 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+22 Mar 2011 16:20:15,939 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+22 Mar 2011 16:20:15,942 INFO  ~ Application 'TextExtrApi' is now started !

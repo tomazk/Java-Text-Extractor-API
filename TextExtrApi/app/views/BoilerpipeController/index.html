@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{if flash.error}
+    <p style="color:#c00">
+        ${flash.error}
+    </p>
+#{/if}
+
+<form action="@{BoilerpipeController.extract()}" method="post">
+    <p> <input type="text" name="extractorType" /> </p>
+	<p> <textarea name="rawHtml" id="" cols="50" rows="30"></textarea> </p> 
+	<p> <input type="submit" value="Submit" /> </p>
+</form> 
