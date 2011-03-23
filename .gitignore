@@ -1,0 +1,4 @@
+*.class
+*/eclipse/*
+*/tmp/*
+!*.gitignore
