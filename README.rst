@@ -11,8 +11,8 @@ Tomaž Kovačič <tomaz.kovacic@gmail.com>
 Extractors supported
 ====================
 
-- `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
-- `Goose <https://github.com/jiminoc/goose/>`_ *(on TODO list)*
+* `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
+* `Goose <https://github.com/jiminoc/goose/>`_ *(on TODO list)*
 
 API Documentation
 =================
@@ -21,15 +21,16 @@ API Documentation
 Boilerpipe API
 --------------
 
-method: ``POST``
+**method:** ``POST``
 
-endpoint: ``http://yourdomain//boilerpipe/extract/``
+**endpoint:** ``http://yourdomain//boilerpipe/extract/``
 
-params:
-- ``extractorType`` : ``(article|default)``
-- ``rawHtml`` : html content
+**params:**
 
-JSON response format: 
+* ``extractorType`` : ``(article|default)``
+* ``rawHtml`` : html content
+
+**JSON response format:**
 
 ::
 
@@ -43,16 +44,17 @@ JSON response format:
 Dependencies
 ============
 
-- `Play <http://www.playframework.org/>`_ framework v1.1.1.
+* `Play <http://www.playframework.org/>`_ framework v1.1.1.
 
 Licence
 =======
 
-- Everything that's not in the ``/lib/`` directory is licenced under GPLv3
-- Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0:
-    + `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
-    + `NekoHTML <http://nekohtml.sourceforge.net/>`_
-    + `Xerces <http://xerces.apache.org/>`_
+* Everything that's not in the ``/lib/`` directory is licenced under GPLv3
+* Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0
+
+    * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
+    * `NekoHTML <http://nekohtml.sourceforge.net/>`_
+    * `Xerces <http://xerces.apache.org/>`_
 
 
 Copyright (C) Tomaž Kovačič
