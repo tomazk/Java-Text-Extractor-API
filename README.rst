@@ -22,10 +22,13 @@ Boilerpipe API
 --------------
 
 method: ``POST``
+
 endpoint: ``http://yourdomain//boilerpipe/extract/``
+
 params:
-		- ``extractorType`` : ``(article|default)``
-		- ``rawHtml`` : html content
+- ``extractorType`` : ``(article|default)``
+- ``rawHtml`` : html content
+
 JSON response format: 
 
 ::
@@ -46,7 +49,6 @@ Licence
 =======
 
 - Everything that's not in the ``/lib/`` directory is licenced under GPLv3
-
 - Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0:
     + `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
     + `NekoHTML <http://nekohtml.sourceforge.net/>`_
