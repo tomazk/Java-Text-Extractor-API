@@ -11,11 +11,11 @@ Tomaž Kovačič <tomaz.kovacic@gmail.com>
 Extractors supported
 --------------------
 
-- `Boilerpipe<http://code.google.com/p/boilerpipe/>`_
-- `Goose<https://github.com/jiminoc/goose>`_ *(on TODO list)*
+- `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
+- `Goose <https://github.com/jiminoc/goose/>`_ *(on TODO list)*
 
 API Documentation
----
+-----------------
 
 TODO
 
@@ -23,17 +23,17 @@ TODO
 Dependencies
 ------------
 
-- `Play<http://www.playframework.org/>`_ framework v1.1.1.
+- `Play <http://www.playframework.org/>`_ framework v1.1.1.
 
 Licence
 -------
 
-- Everything that's not in the ``*/lib/`` directory is licenced under GPLv3
+- Everything that's not in the ``/lib/`` directory is licenced under GPLv3
 
-- Jar packages in the ``*/lib/`` directory are all licenced under Apache Licence 2.0 *(from the looks of it)* see:
-    + `Boilerpipe<http://code.google.com/p/boilerpipe/>`_
-    + `NekoHTML<http://nekohtml.sourceforge.net/>`_
-    + `Xerces<http://xerces.apache.org/>`_
+- Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0 *(from the looks of it)* see:
+    + `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
+    + `NekoHTML <http://nekohtml.sourceforge.net/>`_
+    + `Xerces <http://xerces.apache.org/>`_
 
 
 Copyright (C) Tomaž Kovačič
