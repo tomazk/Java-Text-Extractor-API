@@ -4,33 +4,50 @@ Java Text Extractor API
 Web API for Java based text extractors. Implemented using Play framework.
 
 Author
-------
+======
 
 Tomaž Kovačič <tomaz.kovacic@gmail.com>
 
 Extractors supported
---------------------
+====================
 
 - `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
 - `Goose <https://github.com/jiminoc/goose/>`_ *(on TODO list)*
 
 API Documentation
------------------
+=================
 
-TODO
+
+Boilerpipe API
+--------------
+
+method: ``POST``
+endpoint: ``http://yourdomain//boilerpipe/extract/``
+params:
+		- ``extractorType`` : ``(article|default)``
+		- ``rawHtml`` : html content
+JSON response format: 
+
+::
+
+	{	
+		"result": RESULT_TEXT
+		"status": (OK|ERROR)
+		"errorMsg": ERROR_MESSAGE (optional)
+	}	
 
 
 Dependencies
-------------
+============
 
 - `Play <http://www.playframework.org/>`_ framework v1.1.1.
 
 Licence
--------
+=======
 
 - Everything that's not in the ``/lib/`` directory is licenced under GPLv3
 
-- Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0 *(from the looks of it)* see:
+- Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0:
     + `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
     + `NekoHTML <http://nekohtml.sourceforge.net/>`_
     + `Xerces <http://xerces.apache.org/>`_
