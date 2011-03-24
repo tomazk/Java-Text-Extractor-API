@@ -1,6 +1,6 @@
 package utils;
 
-/** Common representation od response data */
+/** Common representation for response data */
 public interface ResponseData {
 	
 	public abstract void setStatusError();
