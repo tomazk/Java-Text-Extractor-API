@@ -9,7 +9,7 @@ public class BoilerpipeResponseData {
 	/** status (OK|ERROR) */
 	private String status;
 	
-	/** empty or some sortf of error feedback */
+	/** empty or some sort of error feedback */
 	private String errorMsg;
 	
 	public BoilerpipeResponseData(){

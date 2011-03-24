@@ -23,7 +23,7 @@ Boilerpipe API
 
 **method:** ``POST``
 
-**endpoint:** ``http://yourdomain//boilerpipe/extract/``
+**endpoint:** ``http://yourdomain/boilerpipe/extract/``
 
 **params:**
 
