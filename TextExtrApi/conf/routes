@@ -7,6 +7,10 @@ GET     /boilerpipe/                            BoilerpipeController.index
 POST    /boilerpipe/extract/                    BoilerpipeController.extract
 
 
+# Goose API
+GET     /goose/                                 GooseController.index
+POST    /goose/extract/                         GooseController.extract
+
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 

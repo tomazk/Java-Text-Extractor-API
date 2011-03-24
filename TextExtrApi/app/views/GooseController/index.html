@@ -1,9 +1,7 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-
-<form action="@{BoilerpipeController.extract()}" method="post">
-    <p> <input type="text" name="extractorType" /> </p>
+<form action="@{GooseController.extract()}" method="post">
 	<p> <textarea name="rawHtml" id="" cols="50" rows="30"></textarea> </p> 
 	<p> <input type="submit" value="Submit" /> </p>
 </form> 

@@ -1,8 +1,7 @@
 package utils;
 
-/** Response data container */
-public class BoilerpipeResponseData implements ResponseData{
-
+public class GooseResponseData implements ResponseData {
+	
 	/** result string */
 	private String result;
 	
@@ -12,7 +11,7 @@ public class BoilerpipeResponseData implements ResponseData{
 	/** empty or some sort of error feedback */
 	private String errorMsg;
 	
-	public BoilerpipeResponseData(){
+	public GooseResponseData() {
 		result = "";
 		status = "OK";
 		errorMsg = "";
@@ -29,5 +28,5 @@ public class BoilerpipeResponseData implements ResponseData{
 	public void setResult(String result) {
 		this.result = result;
 	}
-	
+
 }
