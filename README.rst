@@ -12,11 +12,12 @@ Extractors supported
 ====================
 
 * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
-* `Goose <https://github.com/jiminoc/goose/>`_ *(on TODO list)*
+* `Goose <https://github.com/jiminoc/goose/>`_ (using my `fork <https://github.com/tomazk/goose>`_)
 
 API Documentation
 =================
 
+*Note:* All parameters should be encoded using ``x-www-form-urlencoded`` 
 
 Boilerpipe API
 --------------
@@ -40,6 +41,26 @@ Boilerpipe API
 		"errorMsg": ERROR_MESSAGE (optional)
 	}	
 
+Goose API
+---------
+
+**method:** ``POST``
+
+**endpoint:** ``http://yourdomain/goose/extract/``
+
+**params:**
+
+* ``rawHtml`` : html content
+
+**JSON response format:**
+
+::
+
+	{	
+		"result": RESULT_TEXT
+		"status": (OK|ERROR)
+		"errorMsg": ERROR_MESSAGE (optional)
+	}	
 
 Dependencies
 ============
@@ -50,11 +71,12 @@ Licence
 =======
 
 * Everything that's not in the ``/lib/`` directory is licenced under GPLv3
-* Jar packages in the ``/lib/`` directory are all licenced under Apache Licence 2.0
+* Jar packages in the ``/lib/`` are licenced under their respective licence listed below:
 
-    * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_
-    * `NekoHTML <http://nekohtml.sourceforge.net/>`_
-    * `Xerces <http://xerces.apache.org/>`_
+    * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_ - Apache Licence 2.0
+    * `NekoHTML <http://nekohtml.sourceforge.net/>`_ - Apache Licence 2.0
+    * `Xerces <http://xerces.apache.org/>`_ - Apache Licence 2.0
+    * `Goose <https://github.com/jiminoc/goose>`_ - *(no licence provided)*
 
 
 Copyright (C) Tomaž Kovačič
