@@ -46,6 +46,7 @@ public class GooseController extends Controller {
 			
 			responseData.setStatusError();
 			responseData.setErrorMsg( "Goose Error: " + e.getMessage());
+			renderJSON(responseData);
 		}
 	
 		renderJSON(responseData);		
