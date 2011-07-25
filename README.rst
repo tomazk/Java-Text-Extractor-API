@@ -28,7 +28,7 @@ Boilerpipe API
 
 **params:**
 
-* ``extractorType`` : ``(article|default)``
+* ``extractorType`` : ``(article|default|sentence)``
 * ``rawHtml`` : html content
 
 **JSON response format:**

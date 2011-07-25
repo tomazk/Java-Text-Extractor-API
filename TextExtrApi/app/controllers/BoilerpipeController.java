@@ -8,6 +8,7 @@ import play.data.validation.Error;
 import de.l3s.boilerpipe.extractors.ExtractorBase;
 import de.l3s.boilerpipe.extractors.DefaultExtractor;
 import de.l3s.boilerpipe.extractors.ArticleExtractor;
+import de.l3s.boilerpipe.extractors.ArticleSentencesExtractor;
 import de.l3s.boilerpipe.BoilerpipeProcessingException;
 
 import utils.BoilerpipeResponseData;
@@ -25,7 +26,7 @@ public class BoilerpipeController extends Controller {
 			String rawHtml,
 			
 			@Required(message = "extractorType is required") 
-			@Match(value = "default|article", message = "unknown extractor type")
+			@Match(value = "default|article|sentence", message = "unknown extractor type")
 			String extractorType
 	){
 		
@@ -52,6 +53,8 @@ public class BoilerpipeController extends Controller {
 			extractor = DefaultExtractor.getInstance();
 		if(extractorType.equals("article"))
 			extractor = ArticleExtractor.getInstance();
+		if(extractorType.equals("sentence"))
+		    extractor = ArticleSentencesExtractor.getInstance();
 		
 		// extract
 		try {
