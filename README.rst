@@ -100,9 +100,9 @@ Licence
     * `Xerces <http://xerces.apache.org/>`_ - Apache Licence 2.0
     * `Goose <https://github.com/jiminoc/goose>`_ - (no licence provided)
     * Weka - GPLv3
-	* htmllexer - Common Public License
-	* htmlparser - Common Public License
-	* Log4j - Apache Apache Software License v2
+    * htmllexer - Common Public License
+    * htmlparser - Common Public License
+    * Log4j - Apache Apache Software License v2
 * Code in ``TextExtrApi/app/edu/illinois/dais/trr/`` has a Research only licence and was provided by `Tim Weninger <http://www.cs.illinois.edu/homes/weninge1/cetr/>`_  
 
 
