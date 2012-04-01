@@ -15,14 +15,14 @@ import utils.TTRResponseData;;
 
 public class TTRController extends Controller {
 	
-    /** 
-     * author recommends using 3 clusters
-     * 
-     * http://www.cs.illinois.edu/homes/weninge1/cetr/ 
-     * */
-    private static final int K = 3;
-    
-    
+	/** 
+	* author recommends using 3 clusters
+	* 
+	* http://www.cs.illinois.edu/homes/weninge1/cetr/ 
+	* */
+	private static final int K = 3;
+	
+	
 	/** demo */
 	public static void index(){
 		render();
@@ -58,12 +58,12 @@ public class TTRController extends Controller {
 		TTRExtractor extractor = new TTRExtractor();
 		String[] resultLines = extractor.extractText(rawHtml, K);
 		
-        StringBuilder result = new StringBuilder();
-        for (String line : resultLines){
-            result.append(line).append("\n");
-        }
-        
-        responseData.setResult(result.toString());
+		StringBuilder result = new StringBuilder();
+		for (String line : resultLines){
+			result.append(line).append("\n");
+		}
+		
+		responseData.setResult(result.toString());
 		
 		renderJSON(responseData);
 	}
