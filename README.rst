@@ -40,6 +40,28 @@ Boilerpipe API
 		"status": (OK|ERROR)
 		"errorMsg": ERROR_MESSAGE (optional)
 	}	
+	
+TTR API
+--------------
+
+**method:** ``POST``
+
+**endpoint:** ``http://yourdomain/trr/extract/``
+
+**params:**
+
+* ``extractorType`` : for now only ``default`` is available
+* ``rawHtml`` : html content
+
+**JSON response format:**
+
+::
+
+	{	
+		"result": RESULT_TEXT
+		"status": (OK|ERROR)
+		"errorMsg": ERROR_MESSAGE (optional)
+	}	
 
 Goose API
 ---------
