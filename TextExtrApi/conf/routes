@@ -11,6 +11,10 @@ POST    /boilerpipe/extract/                    BoilerpipeController.extract
 GET     /goose/                                 GooseController.index
 POST    /goose/extract/                         GooseController.extract
 
+# TTR API
+GET     /ttr/                                 TTRController.index
+POST    /ttr/extract/                         TTRController.extract
+
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 

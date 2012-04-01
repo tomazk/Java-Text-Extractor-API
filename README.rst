@@ -70,13 +70,18 @@ Dependencies
 Licence
 =======
 
-* Everything that's not in the ``/lib/`` directory is licenced under GPLv3
+* Everything that's not in the ``/lib/`` or ``TextExtrApi/app/edu/illinois/dais/trr/`` directory is licenced under GPLv3. 
 * Jar packages in the ``/lib/`` are licenced under their respective licence listed below:
 
     * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_ - Apache Licence 2.0
     * `NekoHTML <http://nekohtml.sourceforge.net/>`_ - Apache Licence 2.0
     * `Xerces <http://xerces.apache.org/>`_ - Apache Licence 2.0
     * `Goose <https://github.com/jiminoc/goose>`_ - *(no licence provided)*
+    * Weka - GPLv3
+	* htmllexer - Common Public License
+	* htmlparser - Common Public License
+	* Log4j - Apache Apache Software License v2
+* Code in ``TextExtrApi/app/edu/illinois/dais/trr/`` has a Research only licence and was provided by `Tim Weninger <http://www.cs.illinois.edu/homes/weninge1/cetr/>`_  
 
 
 Copyright (C) Tomaž Kovačič

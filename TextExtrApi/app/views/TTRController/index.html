@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+<form action="@{TTRController.extract()}" method="post">
+    <p> <input type="text" name="extractorType" /> </p>
+	<p> <textarea name="rawHtml" id="" cols="50" rows="30"></textarea> </p> 
+	<p> <input type="submit" value="Submit" /> </p>
+</form> 
