@@ -98,7 +98,7 @@ Licence
     * `Boilerpipe <http://code.google.com/p/boilerpipe/>`_ - Apache Licence 2.0
     * `NekoHTML <http://nekohtml.sourceforge.net/>`_ - Apache Licence 2.0
     * `Xerces <http://xerces.apache.org/>`_ - Apache Licence 2.0
-    * `Goose <https://github.com/jiminoc/goose>`_ - *(no licence provided)*
+    * `Goose <https://github.com/jiminoc/goose>`_ - (no licence provided)
     * Weka - GPLv3
 	* htmllexer - Common Public License
 	* htmlparser - Common Public License
